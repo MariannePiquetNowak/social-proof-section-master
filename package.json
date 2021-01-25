@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/MariannePiquetNowak/social-proof-section-master/issues"
   },
-  "homepage": "https://github.com/MariannePiquetNowak/social-proof-section-master#readme"
+  "homepage": "https://github.com/MariannePiquetNowak/social-proof-section-master#readme",
+  "devDependencies": {
+    "sass": "^1.32.5"
+  }
 }

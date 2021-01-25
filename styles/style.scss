@@ -1,0 +1,113 @@
+body {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Spartan', sans-serif;
+
+    background-color: blue;
+
+}
+
+/* Mobile First Style */
+
+/* ====== container ====== */
+#container {
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: .5em;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+/* ====== description product ====== */
+
+.description {
+    margin: 1em .5em;
+    
+    h1 {
+        text-align: center;
+        font-weight: 700;
+        font-size: 35px;
+        color: hsl(300, 43%, 22%);
+        margin: 1.5em 0 1em 0;
+    }
+
+    p {
+        font-weight: 500;
+        font-size: 16px;
+        color: hsl(303, 10%, 53%);
+        text-align: center;
+        line-height: 25px;
+    }
+}
+
+/* ====== Section Ranked ====== */
+
+.rank {
+    &__card {
+        background-color: hsl(300, 24%, 96%);
+        border-radius: 10px;
+        margin: 1em;
+        padding: 1em;
+    }
+    &__stars {
+        text-align: center;
+
+        img {
+            margin: 0 .2em;
+        }
+    }
+
+    h3 {
+        font-weight: 700;
+        color: hsl(300, 43%, 22%);
+        margin-top: 1em;
+        text-align: center;
+    }
+}
+
+/* ====== comment section ====== */
+
+.cards {
+    .card {
+        background-color: hsl(300, 43%, 22%);
+        border-radius: 10px;
+        margin: 1em;
+        padding: 2em;
+
+        &__header {
+            display: flex;
+            
+            img {
+                border-radius: 50%;
+                width: 50px;
+            }
+    
+            h4 {
+                color: hsl(0, 0%, 100%);
+                font-weight: 700;
+            }
+    
+            h3 {
+                color: hsl(333, 80%, 67%);
+            }
+
+            .name {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+
+        
+
+        p {
+            color: hsl(300, 24%, 96%);
+            font-weight: 500;
+            line-height: 25px;
+        }
+    }
+}
