@@ -11,13 +11,16 @@ body {
 
 /* ====== container ====== */
 #container {
-    width: 400px;
+    width: 375px;
     display: flex;
     flex-direction: column;
-    background-color: white;
     padding: .5em .5em 5em .5em;
     height: 100%;
     box-sizing: border-box;
+    background: 
+    url("/images/bg-pattern-top-mobile.svg") no-repeat top, 
+    url("/images/bg-pattern-bottom-mobile.svg") no-repeat bottom;
+    background-color: white;
 }
 
 /* ====== description product ====== */
@@ -35,7 +38,6 @@ body {
 
     p {
         font-weight: 500;
-        font-size: 16px;
         color: hsl(303, 10%, 53%);
         text-align: center;
         line-height: 25px;
@@ -70,6 +72,7 @@ body {
 /* ====== comment section ====== */
 
 .cards {
+    margin-top: 1em;
     .card {
         background-color: hsl(300, 43%, 22%);
         border-radius: 10px;
@@ -106,6 +109,7 @@ body {
             font-weight: 500;
             line-height: 25px;
             margin-top: 2em;
+            font-size: 13px;
         }
     }
 }
@@ -115,7 +119,7 @@ body {
 @media screen and (min-width: 1441px) {
 
     #container {
-        width: 100%;
+        width: 1440px;
     }
 }
 
