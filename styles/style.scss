@@ -120,6 +120,56 @@ body {
 
     #container {
         width: 1440px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        background: 
+        url("/images/bg-pattern-top-desktop.svg") no-repeat top right,
+        url("/images/bg-pattern-bottom-desktop.svg") no-repeat bottom left;
+        background-color: white;
+    }
+
+    /* ====== description product ====== */
+
+    .description {
+        width: 40%;
+        background: red;
+        padding: 1em;
+        h1 {
+            width: 60%;
+            text-align: left;
+            font-weight: 700;
+            font-size: 35px;
+            color: hsl(300, 43%, 22%);
+        }
+
+        p {
+            font-weight: 500;
+            color: hsl(303, 10%, 53%);
+            text-align: left;
+            line-height: 25px;
+        }
+    }
+
+    /* ====== Section Ranked ====== */
+
+    .rank {
+        background: green;
+        width: 40%;
+        
+
+        &__card {
+            margin: 1em 0;
+        }
+    }
+
+    /* ====== comment section ====== */
+
+    .cards {
+        display: flex;
     }
 }
 
+    
