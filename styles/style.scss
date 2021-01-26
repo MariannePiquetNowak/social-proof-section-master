@@ -3,23 +3,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     font-family: 'Spartan', sans-serif;
-
     background-color: blue;
-
 }
 
 /* Mobile First Style */
 
 /* ====== container ====== */
 #container {
-    width: 375px;
+    width: 400px;
     display: flex;
     flex-direction: column;
     background-color: white;
-    padding: .5em;
-    height: 100vh;
+    padding: .5em .5em 5em .5em;
+    height: 100%;
     box-sizing: border-box;
 }
 
@@ -96,18 +93,29 @@ body {
                 color: hsl(333, 80%, 67%);
             }
 
-            .name {
+            .profil {
                 display: flex;
                 flex-direction: column;
+                line-height: 25px;
+                margin-left: 2em;
             }
         }
-
-        
 
         p {
             color: hsl(300, 24%, 96%);
             font-weight: 500;
             line-height: 25px;
+            margin-top: 2em;
         }
     }
 }
+
+/* Responsive Desktop 1440px */
+
+@media screen and (min-width: 1441px) {
+
+    #container {
+        width: 100%;
+    }
+}
+
