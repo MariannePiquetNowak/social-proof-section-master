@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/MariannePiquetNowak/social-proof-section-master#readme",
   "devDependencies": {
+    "cssnano": "^4.1.10",
     "sass": "^1.32.5"
   }
 }
