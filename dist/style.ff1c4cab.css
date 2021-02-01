@@ -4,7 +4,6 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "Spartan", sans-serif;
-  background-color: blue;
 }
 
 /* Mobile First Style */
@@ -104,7 +103,7 @@ body {
   }
 
   #container {
-    width: 1350px;
+    width: 1440px;
     height: auto;
     display: flex;
     flex-direction: row;
@@ -131,10 +130,10 @@ body {
     margin: 0;
   }
   .description h1 {
-    width: 300px;
+    width: 350px;
     text-align: left;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 40px;
     color: #502050;
     margin: 0;
     margin-bottom: 0.3em;
@@ -144,6 +143,7 @@ body {
     color: #937b92;
     text-align: left;
     line-height: 20px;
+    font-size: 13px;
   }
 
   /* ====== Section Ranked ====== */
