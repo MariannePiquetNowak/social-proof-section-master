@@ -1,5 +1,7 @@
 # Bundler : Parcel.JS
 
+## Déploiement de l'exercice ==> https://social-proof-section-flame-delta.vercel.app/
+
 # Frontend Mentor - Social proof section
 
 ![Design preview for the Social proof section coding challenge](./design/desktop-preview.jpg)
